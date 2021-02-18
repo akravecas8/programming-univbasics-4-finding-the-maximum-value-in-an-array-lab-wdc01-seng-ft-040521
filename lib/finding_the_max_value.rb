@@ -5,6 +5,6 @@ def find_max_value(array)
   while count < array.length
     if array[count] > array[count+1]
     p array[count+1]
-binding.pry
+    binding.pry
     count +=1
 end
